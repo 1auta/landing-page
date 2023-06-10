@@ -1,0 +1,61 @@
+@import "./normalise";
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1 1 auto;
+}
+.container {
+  max-width: 1165px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+$mainColor: #e3b748;
+body {
+  color: white;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+}
+ul li,
+a {
+  color: white;
+}
+ul {
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 143.02%;
+  cursor: default;
+}
+.title{
+  font-family: Inter;
+font-size: 54px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: 0em;
+
+}
+@media (max-width: 468px) {
+  .title{
+font-size: 30px
+  }
+  
+}
+
+@import "./components/header";
+@import "./components/main";
+@import "./components/info";
+@import "./components/achivement";
+@import "./components/pictures";
+@import "./components/sliderHappyClient";
+@import "./components/ourTeams";
+@import "./components/faq";
+@import "./components/newsLetters";
